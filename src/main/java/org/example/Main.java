@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.Patterns.FirstDuck.Duck;
-import org.example.Patterns.FirstDuck.MallardDuck;
+import org.example.Patterns.FirstDuck.ducks.Duck;
+import org.example.Patterns.FirstDuck.ducks.MallardDuck;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,5 +13,7 @@ public class Main {
         Duck mallard = new MallardDuck();
         mallard.preformQuack();
         mallard.preformFly();
+        //56 page =>>
+
     }
 }

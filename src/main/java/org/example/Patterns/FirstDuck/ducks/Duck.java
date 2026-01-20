@@ -1,4 +1,7 @@
-package org.example.Patterns.FirstDuck;
+package org.example.Patterns.FirstDuck.ducks;
+
+import org.example.Patterns.FirstDuck.behaviors.fly.FlyBehavior;
+import org.example.Patterns.FirstDuck.behaviors.quack.QuackBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;
@@ -19,5 +22,13 @@ public abstract class Duck {
 
     public void swim() {
         System.out.println("All duck float, even decoys!");
+    }
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
     }
 }

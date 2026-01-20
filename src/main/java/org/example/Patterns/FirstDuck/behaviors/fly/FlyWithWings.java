@@ -1,4 +1,4 @@
-package org.example.Patterns.FirstDuck;
+package org.example.Patterns.FirstDuck.behaviors.fly;
 
 public class FlyWithWings implements FlyBehavior {
 

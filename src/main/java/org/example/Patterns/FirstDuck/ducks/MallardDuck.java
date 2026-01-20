@@ -1,4 +1,7 @@
-package org.example.Patterns.FirstDuck;
+package org.example.Patterns.FirstDuck.ducks;
+
+import org.example.Patterns.FirstDuck.behaviors.fly.FlyWithWings;
+import org.example.Patterns.FirstDuck.behaviors.quack.Quack;
 
 public class MallardDuck extends Duck {
 
