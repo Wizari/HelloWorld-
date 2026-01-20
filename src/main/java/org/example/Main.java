@@ -8,6 +8,8 @@ public class Main {
 //        HelloWorld helloWorld = new HelloWorld();
 //        helloWorld.convert(args);
 //        System.out.println("Hello world!");
+
+        //Duck - chapter #1
         Duck mallard = new MallardDuck();
         mallard.preformQuack();
         mallard.preformFly();
